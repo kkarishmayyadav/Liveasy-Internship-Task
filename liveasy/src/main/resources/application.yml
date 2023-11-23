@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/payload-service
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: password
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: LOAD_SERVICE
+  devtools:
+    add-properties: true
+ 
+      
